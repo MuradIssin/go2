@@ -1,0 +1,233 @@
+/* о нас */
+.about-us {
+  margin-bottom: 50px;
+}
+
+.about-us__title {
+  margin-bottom: 40px;
+}
+
+.about-us__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us__image {
+  width: 600px;
+  height: 596px;
+  background-image: url("../../../image/about_us.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* display: inline-block; */
+  /* margin-right: 80px; */
+  border: none;
+}
+
+.about-us__discription {
+  width: 500px;
+}
+
+.about-us__text i {
+  font-style: normal;
+}
+
+.about-us__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+.about-us__text:nth-child(2) {
+  margin-bottom: 0px;
+}
+
+.about-us__discription-text {
+  margin-bottom: 48px;
+}
+
+.about-us__wraper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about-us__before {
+  margin-right: 9px;
+  font-family: 'Arial';
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  text-transform: uppercase;
+  width: 22px;
+  height: 50px;
+  color: #6C0287;
+  display: inline-block;
+}
+
+blockquote {
+  margin: 0;
+}
+
+.about-us__quote {
+  width: 420px;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  /* text-align: left; */
+  /* display: inline-block; */
+  /* vertical-align: top; */
+  margin-bottom: 39px;
+}
+
+.about-us__quote::after {
+  content: ' ”';
+  font-family: 'Arial';
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  text-transform: uppercase;
+  width: 22px;
+  height: 50px;
+  color: #6C0287;
+}
+
+/* ******** */
+
+.about-us__author {
+  /* padding-top: 41px; */
+  /* padding-left: 111px; */
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.about-us__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* display: inline-block; */
+}
+
+.about-us__img-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  width: 280px;
+  height: 84px;
+  /* padding-left: 30px; */
+  /* display: inline-block; */
+  /* vertical-align: top; */
+}
+
+/* старый код  */
+/*  
+.about-us__block {
+  font-size: 0;
+}
+
+.about-us__image {
+  width: 600px;
+  height: 596px;
+  background-image: url("../../../image/about_us.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-right: 80px;
+  border: none;
+}
+
+.about-us__discription {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  border: none;
+}
+
+.about-us__text i {
+  font-style: normal;
+}
+
+.about-us__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+
+.about-us__text:last-child+ {
+  margin-bottom: 100px;
+  font-size: 29px;
+}
+
+blockquote {
+  margin: 0;
+}
+
+.about-us__wraper {
+  padding-top: 59px;
+}
+
+.about-us__before {
+  margin-right: 9px;
+  font-family: 'Arial';
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  text-transform: uppercase;
+  width: 22px;
+  height: 50px;
+  color: #6C0287;
+  display: inline-block;
+}
+
+.about-us__quote {
+  width: 420px;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about-us__quote::after {
+  content: ' ”';
+  font-family: 'Arial';
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  text-transform: uppercase;
+  width: 22px;
+  height: 50px;
+  color: #6C0287;
+}
+
+.about-us__author {
+  padding-top: 41px;
+  padding-left: 111px;
+}
+
+.about-us__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.about-us__img-title {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  width: 280px;
+  height: 84px;
+  padding-left: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+*/

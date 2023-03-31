@@ -1,0 +1,98 @@
+.reviews__block {
+  margin-bottom: 100px;
+  padding: 0 auto;
+}
+
+.reviews__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reviews__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  /* width: 980px; */
+}
+
+.reviews__item {
+  /* margin-bottom: 50px; */
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .reviews__item:last-child {
+  margin-bottom: 0;
+} */
+
+.reviews__photo {
+  width: 280px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews__img {
+  border-radius: 50%;
+}
+
+.reviews__img--basic {
+  width: 280px;
+  height: 280px;
+  position: relative;
+}
+
+.reviews__img--basic::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
+}
+
+/* 
+
+.review__img--maks {
+  height: 280px;
+  width: 280px;
+
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("../../../image/review_maks.jpg");
+}
+
+.review__img--oksana {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("../../../image/review_oksana.jpg");
+}
+
+.review__img--nikita {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("../../../image/review_nikita.jpg");
+} */
+
+/* .test {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%), url("../../../image/review_maks.jpg");
+} */
+
+.reviews__name {
+  padding-top: 11px;
+}
+
+.reviews__text {
+  width: 650px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
